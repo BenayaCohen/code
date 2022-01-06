@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contat me</title>
+    <script src="https://kit.fontawesome.com/41132c3da3.js" crossorigin="anonymous"></script>
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page-wrapper">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="format">
+        <form action="" method="post">
+            <input type="hidden" id="myhidden" name="send_to" value="benaya04@gmail.com">
+                <div class="input-gruop">  
+                <label for="first"><i class="fas fa-user"></i>Your Name</label>
+                <input type="text" class="name" placeholder="Your Name">
+            </div>
+            <div class="input-gruop">
+                <label for="tel"><i class="fas fa-phone"></i>Phone No.</label>
+                <input type="text" class="number" placeholder= "Your number">
+            </div>
+            <div class="input-gruop">
+                <label for="email"><i class="fas fa-envelope"></i>Email</label>
+                <input type="email" class="email" placeholder="Your Email" >
+            </div>
+            <div class="input-gruop">
+                <label for="comment"><i class="fas fa-comments">Your Message</i></label>
+                <textarea name="comment" class="comment" placeholder="Tell me about yourself" cols="30" rows="10" ></textarea>
+            </div>
+            <div class="input-gruop">
+                <label for="hour">Which one is the best hour to contact you?
+                    <select name="hour" class="hour">
+                        <option value="select">Select one</option>
+                        <option value="10am">10am</option>
+                        <option value="11am">11am</option>
+                        <option value="12am">12am</option>
+                        <option value="13pm">13pm</option>
+                        <option value="14pm">14pm</option>
+                        <option value="15pm">15pm</option>
+                        <option value="16pm">16pm</option>
+                    </select>
+                </label>
+            </div>
+            <div class="input-gruop">
+                <button disabled change class="submit">submit<i class="fas fa-paper-plane"></i></button>
+                </div>
+        </form>
+    </div>
+        <footer>
+            <div>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+              <p id="website">This page was built using: </p>
+            </div>
+        </footer>
+        <script src="./js/form.js"></script>
+        
+  
+</body>
+
+</html>
